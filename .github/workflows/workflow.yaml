@@ -8,4 +8,4 @@ jobs:
   echo-string:
     runs-on: ubuntu-latest
     steps:
-      - run: "I was triggered because 'Repository Events' was completed"
+      - run: echo "I was triggered because 'Repository Events' was completed"
