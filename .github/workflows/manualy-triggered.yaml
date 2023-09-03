@@ -1,6 +1,6 @@
 name: Manually Triggered
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   log-info:
