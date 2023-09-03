@@ -1,5 +1,5 @@
 name: Repository Events
-on: [pull, push, issues]
+on: [push, pull_request, issues]
 
 jobs:
   checkout-test:
