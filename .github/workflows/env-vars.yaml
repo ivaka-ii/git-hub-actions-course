@@ -1,0 +1,11 @@
+name : Status check Functions
+on: [push]
+
+jobs:
+  env-vars-and-context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log ENV VAR
+        run: $GITHUB_REF
+      - name: Log contest
+        run: echo '${{ github.ref }}'
