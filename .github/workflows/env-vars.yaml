@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Log ENV VAR
-        run: $GITHUB_REF
+        run: echo $GITHUB_REF
       - name: Log contest
         run: echo '${{ github.ref }}'
