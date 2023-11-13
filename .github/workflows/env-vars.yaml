@@ -1,4 +1,4 @@
-name : Status check Functions
+name : Environment Variables
 on: [push]
 
 jobs:
